@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".ZDisMainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back5"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:weightSum="2"
+        android:gravity="center"
+        android:id="@+id/frame">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level_number"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/colorLevel"
+            android:id="@+id/level_tv"/>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="270dp"
+                android:src="@drawable/brown2"
+                android:scaleType="fitXY"
+                android:background="@drawable/math_question_box"
+                android:id="@+id/math_iv"
+                />
+
+            <TextView
+                android:id="@+id/math_text_view"
+                android:layout_width="250dp"
+                android:layout_height="270dp"
+                android:text="TextView"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:textSize="45sp"
+                android:padding="10dp"
+                />
+
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/Table"
+            android:stretchColumns="*"
+            >
+
+
+        </TableLayout>
+
+</LinearLayout>
+
+</LinearLayout>

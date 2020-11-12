@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidBingoProject</string>
+    <string name="Your_score_is">הניקוד שלך הוא \n</string>
+    <string name="no_more_moves">לא נשאר מהלכים</string>
+    <string name="what">מה תרצה ללמוד עכשיו?</string>
+    <string name="easy">קל</string>
+    <string name="medium">בינוני</string>
+    <string name="hard">קשה</string>
+    <string name="ok">אישור</string>
+    <string name="explain">"בואו לשפר את הבנתכם בחיבור, חיסור, כפל וחילוק! משחק מהנה לילדים מגיל גן חובה ועד כיתה ד'. ילדים מוזמנים ללמוד ולתרגל פעולות חשבון בדרך משעשעת ונעימה.  בחר את פעולת החשבון שלך, פתור את התרגילים, צבור נקודות ותהנה בדרך ממשחק בינגו נחמד.  בואו נשחק! "</string>
+    <string name="bingo_explain">השג את כל הדובים,\n  בשורה,בעמודה\n או באלכסון</string>
+    <string name="mew_player">שחקן חדש</string>
+    <string name="name_player">התחל משחק</string>
+    <string name="enter_name">הכנס את שמך</string>
+    <string name="enter">אישור</string>
+    <string name="rate">דירוג</string>
+    <string name="Nickname">כינוי</string>
+    <string name="score">ניקוד</string>
+    <string name="type">סוג משחק</string>
+    <string name="table">טבלת שיאים</string>
+    <string name="win_dialog">כל הכבוד</string>
+    <string name="you_lose">אוי לא !\n אין יותר מהלכים !!</string>
+    <string name="level_number">שלב</string>
+    <string name="next_level">לשלב הבא</string>
+    <string name="Lets_play">בוא נשחק !</string>
+    <string name="Continue_to">המשך לרמה הבאה</string>
+    <string name="Exit">יציאה</string>
+    <string name="try_again">נסה שנית</string>
+</resources>

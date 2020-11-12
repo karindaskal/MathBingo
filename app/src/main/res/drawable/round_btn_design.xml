@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <gradient
+                android:startColor="#E2A5AC"
+                android:endColor="#FFD0FD"
+                android:angle="270"/>
+            <stroke
+                android:width="1dp"
+                android:color="#1438BC"/>
+
+            <corners
+                android:radius="100dp"
+                android:bottomRightRadius="10dp"
+                android:bottomLeftRadius="10dp"
+                android:topRightRadius="10dp"
+                android:topLeftRadius="10dp"
+                />
+
+        </shape>
+    </item>
+    <!--<item android:drawable="@drawable/animal1"
+E2A5AC
+        />-->
+</layer-list>
+
+
+
+
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.androidbingoproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".HomeScreen"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"
+                   />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".beforeActivity"
+            android:label="s a "
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity"/>
+
+        <activity android:name=".BoardGame"
+            android:label="4x4"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity"/>
+
+
+
+        <activity android:name=".LevelsActivity"
+            android:label="levels"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity"/>
+
+
+        <activity android:name=".ZDisMainActivity"
+            android:label="Main activity"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity android:name=".leaderActivity"
+            android:label="s a "
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity"/>
+
+        <service android:name=".myMusic"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/aaaaa"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".HomeScreen"
+    >
+   <LinearLayout
+       android:layout_weight="2.5"
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:weightSum="5"
+       android:layout_gravity="center"
+       android:gravity="center"
+       >
+
+      <!--<TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+         android:text="logo"
+         android:textSize="70dp"
+         android:layout_gravity="center"/>-->
+
+       <ImageView
+           android:id="@+id/logo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:src="@drawable/just_logo" />
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_weight="2.5"
+       android:layout_width="match_parent"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:layout_height="0dp"
+       android:weightSum="5">
+
+      <ImageView
+          android:id="@+id/horse"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginEnd="100dp"
+          android:src="@drawable/school_boy" />
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:layout_weight="2"
+          android:layout_gravity="center"
+          android:layout_marginEnd="100dp">
+
+
+
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:padding="20dp"
+             android:id="@+id/player"
+             android:layout_weight="1"
+             android:text="@string/name_player"
+             android:background="@drawable/button_shape"
+             android:drawableStart="@drawable/playbutton"
+             android:textSize="19sp"
+             android:textColor="@color/colorAccent"/>
+
+         <Button
+
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:text="@string/table"
+             android:textColor="@color/colorAccent"
+             android:textSize="19sp"
+             android:layout_weight="1"
+             android:padding="13dp"
+             android:layout_gravity="center"
+             android:drawableStart="@drawable/cup4"
+            android:layout_marginTop="20dp"
+             android:background="@drawable/button_shape"
+
+             android:id="@+id/record_table"/>
+
+        <!-- <ImageButton
+             android:id="@+id/record_table"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:background="@drawable/tro" />
+         -->
+
+         <!--<ImageButton
+             android:layout_width="wrap_content"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:layout_margin="5dp"
+             android:layout_gravity="center"
+             android:background="@drawable/trophyy"
+             android:scaleType="fitCenter"
+             android:id="@+id/record_table"/>
+-->
+
+
+
+
+         <!--android:background="@drawable/button_shape"-->
+
+         <!--<ImageButton
+             android:layout_width="wrap_content"
+             android:layout_height="0dp"
+             android:layout_gravity="center_horizontal"
+             android:layout_weight="6"
+             android:scaleType="fitXY"
+             android:layout_marginTop="20dp"
+             android:padding="5dp"
+             android:src="@drawable/animal1"
+             android:background="@drawable/cemare_shape"
+             android:id="@+id/cemara"
+             />-->
+      </LinearLayout>
+
+
+
+
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:src="@drawable/school_girl"
+          android:id="@+id/sheep"
+          />
+
+   </LinearLayout>
+
+   <LinearLayout
+
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       >
+
+      <ImageButton
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:src="@drawable/music1"
+          android:background="@drawable/button_shape"
+          android:id="@+id/settings"
+          android:layout_margin="5dp"
+          android:padding="12dp"
+          android:scaleType="fitXY"
+
+          />
+
+      <ToggleButton
+          android:layout_width="5dp"
+          android:layout_height="match_parent"
+          android:background="@drawable/ic_toggle_bg"
+          android:layout_weight="1"
+          android:textOn=""
+          android:textOff=""
+          android:layout_margin="5dp"
+          android:id="@+id/music"
+          android:visibility="gone"
+          />
+
+      <ToggleButton
+          android:layout_width="5dp"
+          android:layout_height="match_parent"
+          android:background="@drawable/ic_toggel_music_bg"
+          android:layout_weight="1"
+          android:scaleType="fitXY"
+          android:textOn=""
+          android:textOff=""
+          android:id="@+id/nouis"
+          android:layout_margin="5dp"
+          android:padding="5dp"
+          android:visibility="gone"
+          />
+
+      <Space
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+         android:layout_weight="6"/>
+
+      <Space
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="5"/>
+
+
+   </LinearLayout>
+
+</LinearLayout>

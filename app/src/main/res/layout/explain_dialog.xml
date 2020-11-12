@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/image_dialog_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exp_background"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="21dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="20dp"
+            android:background="#E4FD4359"
+            android:text="X"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/bingo_explain"
+            android:id="@+id/five_tv"/>
+
+
+        <ImageView
+            android:id="@+id/explain_iv"
+            android:layout_width="260dp"
+            android:scaleType="fitXY"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bingo_explain"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!--
+
+            <Button
+                android:id="@+id/continue_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:text="Continue"
+                android:background="@drawable/dialog_btn"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/continue_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/exit_btn"
+                android:text="Exit"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/dialog_btn"
+                />
+    -->
+
+
+
+
+</RelativeLayout>
+
+
+
